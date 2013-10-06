@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b6ba4b0-cbac-47fd-9da6-7937614cece8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh.txt.pub" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8b6ba4b0-cbac-47fd-9da6-7937614cece8" name="Default" comment="" />
     <ignored path="DataAccess.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380996487559" ignored="false" />

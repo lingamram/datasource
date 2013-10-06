@@ -12,7 +12,8 @@ public class StockBoImpl implements StockBo{
 	
 	@Autowired
 	StockDao stockDao;
-	
+
+    //Test comments
 	public void setStockDao(StockDao stockDao) {
 		this.stockDao = stockDao;
 	}

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b6ba4b0-cbac-47fd-9da6-7937614cece8" name="Default" comment="" />
+    <list default="true" id="8b6ba4b0-cbac-47fd-9da6-7937614cece8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh.txt.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="DataAccess.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380996487559" ignored="false" />
@@ -10,7 +16,7 @@
     <file path="/a.dummy" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380956033928" ignored="false" />
     <file path="/fragment.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380991215786" ignored="false" />
     <file path="/StockBoImplIntegrationTest.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380992814782" ignored="false" />
-    <file path="/StockBoImpl.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1381041250931" ignored="false" />
+    <file path="/StockBoImpl.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1381078695787" ignored="false" />
     <file path="/Dummy.txt" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1381041482453" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +86,7 @@
       <file leaf-file-name="StockBoImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="526" selection-end="526" vertical-scroll-proportion="0.64577657">
+            <state line="15" column="19" selection-start="377" selection-end="377" vertical-scroll-proportion="0.27520436">
               <folding />
             </state>
           </provider>
@@ -458,9 +464,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -649,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="526" selection-end="526" vertical-scroll-proportion="0.64577657">
+        <state line="15" column="19" selection-start="377" selection-end="377" vertical-scroll-proportion="0.27520436">
           <folding />
         </state>
       </provider>

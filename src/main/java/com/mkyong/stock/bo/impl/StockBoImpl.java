@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.mkyong.stock.bo.StockBo;
 import com.mkyong.stock.dao.StockDao;
 import com.mkyong.stock.model.Stock;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service("stockBo")
 public class StockBoImpl implements StockBo{
@@ -30,7 +31,7 @@ public class StockBoImpl implements StockBo{
 	public void delete(Stock stock){
 		stockDao.delete(stock);
 	}
-	
+    @Transactional(readOnly = true)
 	public Stock findByStockCode(String stockCode){
 		return stockDao.findByStockCode(stockCode);
 	}

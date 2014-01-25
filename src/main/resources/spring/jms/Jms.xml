@@ -1,0 +1,60 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jms="http://www.springframework.org/schema/jms"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/jms
+       http://www.springframework.org/schema/jms/spring-jms-3.0.xsd">
+
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="vm://localhost"/>
+    </bean>
+
+    <!-- Spring JMS Template -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory">
+            <ref local="connectionFactory"/>
+        </property>
+        <property name="defaultDestination" ref="testQueue"/>
+    </bean>
+
+    <bean id="testQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="test"/>
+    </bean>
+
+    <bean id="producer" class="com.mkyong.jms.Producer">
+        <property name="jmsTemplate" ref="jmsTemplate"/>
+    </bean>
+
+    <bean id="consumer" class="com.mkyong.jms.Consumer">
+        <property name="jmsTemplate" ref="jmsTemplate"/>
+    </bean>
+
+
+
+    <bean id="asyncTestQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="test.async.queue"/>
+    </bean>
+
+    <!--
+        <jms:listener-container connection-factory="connectionFactory"
+                                container-type="default"
+                                acknowledge="auto">
+        <jms:listener destination="test.async.queue" ref="asyncReceiver" method="onMessage"/>
+        </jms:listener-container>
+    -->
+    <bean name="consumerContainer1"
+          class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory" />
+        <property name="destination" ref="asyncTestQueue" />
+        <property name="messageListener" ref="asyncReceiver" />
+        <!-- Retry connection every 10 seconds. -->
+        <property name="recoveryInterval" value="10000" />
+        <property name="concurrentConsumers" value="1" />
+    </bean>
+
+    <bean id="asyncReceiver" class="com.mkyong.jms.AsyncListner">
+    </bean>
+
+</beans>

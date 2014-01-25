@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b6ba4b0-cbac-47fd-9da6-7937614cece8" name="Default" comment="" />
+    <list default="true" id="8b6ba4b0-cbac-47fd-9da6-7937614cece8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/jms/AsyncListner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/jms/Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/fact/Fact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mkyong/fact/FactTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/jms/Jms.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mkyong/jms/JmsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/iris.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/spring/jms/test-Jms.xml" />
+      <change type="DELETED" beforePath="C:\Users\iris\idea\DataAccess\src\main\resources\spring\database\Hibernate.out.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\iris\idea\DataAccess\src\test\resources\spring\database\test-Hibernate.out.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\iris\idea\DataAccess\src\main3\java\com\ram\Ram.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/jms/Producer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataAccess.iml" afterPath="$PROJECT_DIR$/DataAccess.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/spring/config/test-BeanLocations.xml" afterPath="$PROJECT_DIR$/src/test/resources/spring/config/test-BeanLocations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="DataAccess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380996487559" ignored="false" />
+    <file path="/pom.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382816732380" ignored="false" />
     <file path="/Ram.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380925315217" ignored="false" />
     <file path="/datasource.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380926806467" ignored="false" />
-    <file path="/a.dummy" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380956033928" ignored="false" />
-    <file path="/fragment.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380991215786" ignored="false" />
+    <file path="/a.dummy" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382277823538" ignored="false" />
+    <file path="/fragment.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382818210978" ignored="false" />
     <file path="/StockBoImplIntegrationTest.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1380992814782" ignored="false" />
-    <file path="/StockBoImpl.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1381078695787" ignored="false" />
-    <file path="/Dummy.txt" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1381041482453" ignored="false" />
+    <file path="/StockBoImpl.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382285889145" ignored="false" />
+    <file path="/Dummy.txt" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1390675025043" ignored="false" />
+    <file path="/Client.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382168376770" ignored="false" />
+    <file path="/BeanLocations.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382169163445" ignored="false" />
+    <file path="/JmsTest.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382281881394" ignored="false" />
+    <file path="/Producer.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382282552327" ignored="false" />
+    <file path="/Jms.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382277200529" ignored="false" />
+    <file path="/Consumer.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382279869526" ignored="false" />
+    <file path="/test-BeanLocations.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382180229351" ignored="false" />
+    <file path="/test-Jms.xml" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382279841922" ignored="false" />
+    <file path="/AsyncListner.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382286902950" ignored="false" />
+    <file path="/FactTest.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382818762160" ignored="false" />
+    <file path="/Fact.java" changelist="8b6ba4b0-cbac-47fd-9da6-7937614cece8" time="1382818806666" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +112,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StockBoImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="377" selection-end="377" vertical-scroll-proportion="0.27520436">
+            <state line="26" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/fact/FactTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.04607046">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fact.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/fact/Fact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="34" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,14 +160,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main3/java/com/ram/Ram.java" />
-        <option value="$PROJECT_DIR$/datasource/datasource.xml" />
-        <option value="$PROJECT_DIR$/src/main/assembly/assembly.xml" />
-        <option value="$PROJECT_DIR$/src/main/scripts/startup.bat" />
         <option value="$PROJECT_DIR$/src/test/java/com/mkyong/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mkyong/stock/bo/impl/StockBoImplIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/jms/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/spring/config/test-BeanLocations.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mkyong/jms/JmsTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/jms/Producer.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/spring/jms/test-Jms.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/jms/Jms.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/jms/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mkyong/jms/JmsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/jms/AsyncListner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/fact/Fact.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mkyong/fact/FactTest.java" />
       </list>
     </option>
   </component>
@@ -139,6 +202,22 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -146,7 +225,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -165,6 +244,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,169 +254,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mkyong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mkyong.jms" />
       <recent name="com.mkyong.stock.bo.impl" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\iris\idea\DataAccess\src\test\resources\spring\jms" />
+      <recent name="C:\Users\iris\idea\DataAccess\src\main\resources\spring\jms" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FactTest">
+    <configuration default="false" name="Producer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mkyong.jms.Producer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataAccess" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FactTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="DataAccess" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.mkyong.fact" />
+      <option name="MAIN_CLASS_NAME" value="com.mkyong.fact.FactTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FactTest.shouldReturnOneWhenZeroIn" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="DataAccess" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mkyong.fact" />
+      <option name="MAIN_CLASS_NAME" value="com.mkyong.fact.FactTest" />
+      <option name="METHOD_NAME" value="shouldReturnOneWhenZeroIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -424,7 +438,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Producer" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FactTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FactTest.shouldReturnOneWhenZeroIn" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FactTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FactTest.shouldReturnOneWhenZeroIn" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Producer" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -458,26 +483,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.28668943" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19680852" sideWeight="0.19283277" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21732523" sideWeight="0.67064846" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.38395905" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19848485" sideWeight="0.6717687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33978873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -541,6 +567,18 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DataAccess" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DataAccess" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -548,109 +586,89 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/integration/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.27224198" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/stock/bo/impl/StockBoImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/jms/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="121" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="8" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/stock/dao/impl/StockDaoImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/jms/Jms.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="319" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="59" column="8" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main3/java/com/ram/Ram.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/jms/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasource/datasource.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/jms/JmsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/assembly.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="279" selection-end="279" vertical-scroll-proportion="-5.8" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/startup.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="112" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/stock/bo/impl/StockBoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="121" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/stock/dao/impl/StockDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="319" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/integration/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main3/java/com/ram/Ram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/stock/bo/impl/StockBoImplIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="58" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="73" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="57" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="13" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/jms/AsyncListner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="600" selection-end="600" vertical-scroll-proportion="0.48428836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/database/test-Hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="282" selection-end="282" vertical-scroll-proportion="0.057301294" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="377" selection-end="377" vertical-scroll-proportion="0.27520436">
+        <state line="33" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.6672598" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/StockBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="85" selection-end="85" vertical-scroll-proportion="0.12099644" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/database/test-DataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/jms/test-Jms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.03202847" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/fact/Fact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkyong/fact/FactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.04607046">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

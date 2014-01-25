@@ -23,44 +23,47 @@
        </profile>
    </profiles>
   <build>
+      <!-- The configuration of maven-build-helper-plugin -->
       <plugins>
-          <!-- The configuration of maven-build-helper-plugin -->
-          <plugin>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>build-helper-maven-plugin</artifactId>
-              <version>1.8</version>
-              <executions>
-                  <execution>
-                      <id>add_source</id>
-                      <phase>generate-sources</phase>
-                      <goals>
-                          <goal>add-source</goal>
-                      </goals>
-                      <configuration>
-                          <sources>
-                              <source>${basedir}\src\main3\java</source>
-                          </sources>
-                      </configuration>
-                  </execution>
-                  <execution>
-                      <id>attach-artifacts</id>
-                      <phase>package</phase>
-                      <goals>
-                          <goal>attach-artifact</goal>
-                      </goals>
-                      <configuration>
-                          <artifacts>
-                              <artifact>
-                                  <file>${basedir}/datasource/datasource.xml</file>
-                                  <type>xml </type>
-                                  <classifier>datasource</classifier>
-                              </artifact>
-                          </artifacts>
-                      </configuration>
-                  </execution>
-              </executions>
-          </plugin>
-          <!-- The configuration of maven-compiler-plugin -->
+          <!--
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>build-helper-maven-plugin</artifactId>
+                        <version>1.8</version>
+                        <executions>
+                            <execution>
+                                <id>add_source</id>
+                                <phase>generate-sources</phase>
+                                <goals>
+                                    <goal>add-source</goal>
+                                </goals>
+                                <configuration>
+                                    <sources>
+                                        <source>${basedir}\src\main3\java</source>
+                                    </sources>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>attach-artifacts</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>attach-artifact</goal>
+                                </goals>
+                                <configuration>
+                                    <artifacts>
+                                        <artifact>
+                                            <file>${basedir}/datasource/datasource.xml</file>
+                                            <type>xml </type>
+                                            <classifier>datasource</classifier>
+                                        </artifact>
+                                    </artifacts>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    -->
+
+      <!-- The configuration of maven-compiler-plugin -->
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
@@ -111,9 +114,13 @@
               <artifactId>maven-surefire-plugin</artifactId>
               <version>2.16</version>
                 <configuration>
+                    <forkCount>2</forkCount>
+                    <reuseForks>false</reuseForks>
+                    <!--
                     <includes>
-                        <include>**/*.class</include>
+                        <include>**\*.class</include>
                     </includes>
+                    -->
                     <excludedGroups>com.mkyong.integration.IntegrationTest</excludedGroups>
                     <skipTests>${profile.skip.test}</skipTests>
                 </configuration>
@@ -145,6 +152,19 @@
                       </configuration>
                   </execution>
               </executions>
+          </plugin>
+          <!-- The configuration of maven-failsafe-plugin -->
+          <plugin>
+              <groupId>com.googlecode.flyway</groupId>
+              <artifactId>flyway-maven-plugin</artifactId>
+              <version>1.6.1</version>
+              <configuration>
+                  <driver>com.mysql.jdbc.Driver</driver>
+                  <url>jdbc:mysql://localhost:3306/</url>
+                  <user>root</user>
+                  <password>cvkr</password>
+                  <schemas>test</schemas>
+              </configuration>
           </plugin>
       </plugins>
   </build>
@@ -200,5 +220,15 @@
   <artifactId>spring-test</artifactId>
   <version>${org.springframework.version}</version>
 </dependency>
+<dependency>
+  <groupId>org.apache.activemq</groupId>
+  <artifactId>activemq-all</artifactId>
+  <version>5.8.0</version>
+</dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-jms</artifactId>
+          <version>2.5</version>
+      </dependency>
 </dependencies>
 </project>
